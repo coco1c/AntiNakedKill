@@ -1,0 +1,20 @@
+name: AntiNakedKill
+version: 1.2
+main: com.coco.AntiNakedKill
+api-version: '1.17'
+authors: [coco]
+depend: [WorldGuard]
+commands:
+  whitelistitem:
+    aliases:
+      - sct
+      - st
+  nonakedkillreload:
+    description: reload the config file
+  nonakedkillhelp:
+    aliases:
+      - nkhelp
+      - nhelp
+  protection:
+    aliases:
+      - pr

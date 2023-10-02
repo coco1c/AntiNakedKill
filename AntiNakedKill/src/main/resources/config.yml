@@ -1,0 +1,51 @@
+Messages:
+  player_is_naked: "&4{naked_player} is naked!" ##{naked_player} for the naked player and {no_msg} if you don't want any msg's here
+  reload_msg: "&4Config reloaded!"
+  no_perms: "&4You don't have permission to use this command!"
+  naked_pickup_blacklisted_items: "&4You can't pickup that item while you are naked!"
+  cooldown: "&4You are on cooldown! Please wait another {time}."
+  protection_on: "&4You will now be protected while naked!"
+  protection_off: "&4You will now not be protected while naked!"
+  item_name_set: "&4config set for the name of the item {item_type} to {item_name}"
+  item_name_set_no_display_name: "&4The item dosen't have a display name!"
+  player_is_not_naked: "&4You can't hit a player that is not naked!"
+
+NPC:
+  contains: "test"
+## YOU WILL NEED TO RELOAD/RESTART YOUR SERVER TO ADD/REMOVE REGIONS FROM HERE!!!!
+Region:                                                                       ####
+  - "test"                                                                    ####
+## YOU WILL NEED TO RELOAD/RESTART YOUR SERVER TO ADD/REMOVE REGIONS FROM H seconds and this is for the command to add/remove the protection
+cooldown_duration: 5
+## in seconds and this is for the command to add/remove the protection
+
+## USE § SYMBOL NOT & FOR COLOR CODES!!!!!!!!
+## ONLY HERE NOT IN MSG'S!!
+items:
+  ignored:
+    RAW_IRON:
+      lore:
+        - "null"
+    DIAMOND_SWORD:
+      display_name: "&#084cfbt&#3f84fce&#76bbfcs&#adf3fdt"
+      lore:
+        - "test"
+    GOLDEN_APPLE:
+      display_name: "§6Enchanted Apple"
+      lore:
+        - "§aA Test fruit."
+        ## You can add as many items as you want here. (WARNING: You may need to restart/reload the server to apply these changes.)
+blocks:
+  ignored_take:
+    - GRASS_BLOCK
+    - GRASS
+  ignored_break:
+    - GRASS_BLOCK
+    - GRASS
+Drops:
+  ignored:
+    - GRASS
+
+    ## You can add as many items as you want here. (WARNING: You may need to restart/reload the server to apply these changes.)
+
+
